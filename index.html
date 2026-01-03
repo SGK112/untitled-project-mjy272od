@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Experience the ultimate developer productivity tool, DevFlow. Boost your coding speed, enhance collaboration, and increase your overall efficiency.">
+  <meta property="og:image" content="https://picsum.photos/seed/flow/1200/630">
+  <title>DevFlow - Unlock Your Coding Potential</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>body{font-family:'Inter',sans-serif}</style>
+</head>
+<body class="bg-slate-950 text-white min-h-screen font-sans antialiased">
+  <!-- NAVIGATION with LOGO IMAGE -->
+  <nav class="fixed top-0 w-full bg-slate-950/80 backdrop-blur-lg border-b border-white/10 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="flex items-center gap-2">
+        <img src="https://picsum.photos/seed/flowlogo/40/40" alt="Logo" class="h-10 w-10 rounded-lg">
+        <span class="text-xl font-bold">DevFlow</span>
+      </a>
+      <div class="hidden md:flex gap-8">
+        <a href="#features" class="text-slate-300 hover:text-white transition">Features</a>
+        <a href="#about" class="text-slate-300 hover:text-white transition">About</a>
+        <a href="#contact" class="text-slate-300 hover:text-white transition">Contact</a>
+      </div>
+      <a href="#contact" class="px-5 py-2 bg-violet-500 hover:bg-violet-400 text-white rounded-xl font-medium transition">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- HERO: Full viewport with BACKGROUND IMAGE -->
+  <section class="min-h-screen flex items-center pt-20 relative overflow-hidden">
+    <!-- HERO BACKGROUND IMAGE - Use relevant keyword -->
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://picsum.photos/seed/flow/1920/1080')"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-violet-500/10 to-fuchsia-500 bg-clip-text text-transparent text-white" style="font-size: 5xl;">Unlock Your Coding Potential</div>
+    <div class="max-w-7xl mx-auto px-6 py-24 relative z-10 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="inline-block px-4 py-1 bg-violet-500/20 border border-violet-500/30 rounded-full text-violet-500 text-sm mb-6">Boost Your Coding Speed</span>
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Ship Code 10x Faster</h1>
+        <p class="text-xl text-slate-400 mb-8 max-w-xl">Experience the power of DevFlow and take your coding skills to the next level.</p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact" class="px-8 py-4 bg-violet-500 hover:bg-violet-400 text-white font-semibold rounded-xl">Get Started</a>
+          <a href="#features" class="px-8 py-4 bg-white/10 hover:bg-white/20 rounded-xl font-semibold border border-white/10 transition">Learn More</a>
+        </div>
+      </div>
+      <!-- HERO PRODUCT/APP IMAGE -->
+      <div class="hidden md:block">
+        <img src="https://picsum.photos/seed/dashboard/800/600" alt="Product Preview" class="rounded-2xl shadow-2xl shadow-violet-500/20 border border-white/10">
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES: 3-column grid with IMAGES -->
+  <section id="features" class="py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Choose DevFlow</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">Experience the ultimate developer productivity tool and discover how DevFlow can boost your coding speed and efficiency.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Feature card WITH IMAGE -->
+        <div class="bg-slate-900 border border-white/10 rounded-[0.75rem]">
+          <img src="https://picsum.photos/seed/flow-fast/600/400" alt="Lightning Fast" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Lightning Fast</h3>
+            <p class="text-slate-400">Experience the power of DevFlow's lightning-fast performance and take your coding skills to the next level.</p>
+          </div>
+        </div>
+        <div class="bg-slate-900 border border-white/10 rounded-[0.75rem]">
+          <img src="https://picsum.photos/seed/flow-security/600/400" alt="Enterprise Security" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Enterprise Security</h3>
+            <p class="text-slate-400">Experience the ultimate security and peace of mind with DevFlow's enterprise-grade security features.</p>
+          </div>
+        </div>
+        <div class="bg-slate-900 border border-white/10 rounded-[0.75rem]">
+          <img src="https://picsum.photos/seed/flow-integration/600/400" alt="Easy Integration" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Easy Integration</h3>
+            <p class="text-slate-400">Experience the ease of integration with DevFlow's seamless API and workflow integration.</p>
+          </div>
+        </div>
+        <div class="bg-slate-900 border border-white/10 rounded-[0.75rem]">
+          <img src="https://picsum.photos/seed/flow-artificial/600/400" alt="AI-Powered" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">AI-Powered</h3>
+            <p class="text-slate-400">Experience the power of AI-powered features with DevFlow and take your coding skills to the next level.</p>
+          </div>
+        </div>
+        <div class="bg-slate-900 border border-white/10 rounded-[0.75rem]">
+          <img src="https://picsum.photos/seed/flow-team/600/400" alt="Team Collaboration" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Team Collaboration</h3>
+            <p class="text-slate-400">Experience the power of team collaboration with DevFlow's seamless workflow integration.</p>
+          </div>
+        </div>
+        <div class="bg-slate-900 border border-white/10 rounded-[0.75rem]">
+          <img src="https://picsum.photos/seed/flow-upptime/600/400" alt="99.9% Uptime" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">99.9% Uptime</h3>
+            <p class="text-slate-400">Experience the reliability and stability of DevFlow's 99.9% uptime guarantee.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE: Large image with overlapping stats -->
+  <section class="py-24 px-6 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto">
+      <div class="relative">
+        <img src="https://picsum.photos/seed/flow/1400/600" alt="Showcase" class="w-full h-96 object-cover rounded-3xl">
+        <div class="absolute inset-0 bg-gradient-to-r from-violet-500/80 to-fuchsia-500 bg-clip-text text-transparent text-white" style="font-size: 5xl;">Join the Flow</div>
+        <div class="absolute inset-0 flex items-center px-12">
+          <div class="max-w-lg">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">50,000+ Developers</h2>
+            <p class="text-slate-300 mb-6">Join the growing community of developers who have already discovered the power of DevFlow.</p>
+            <div class="grid grid-cols-3 gap-6">
+              <div><div class="text-3xl font-bold text-violet-400">95%</div><div class="text-sm text-slate-400">Uptime</div></div>
+              <div><div class="text-3xl font-bold text-violet-400">24/7</div><div class="text-sm text-slate-400">Support</div></div>
+              <div><div class="text-3xl font-bold text-violet-400">2025</div><div class="text-sm text-slate-400">Year</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT/IMAGE SECTION -->
+  <section id="about" class="py-24 px-6 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">Our Mission</h2>
+        <p class="text-slate-300 mb-6">At DevFlow, our mission is to empower developers to create, collaborate, and innovate with ease.</p>
+        <ul class="space-y-3 text-slate-300">
+          <li class="flex items-center gap-3"><svg class="w-5 h-5 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Empower developers</li>
+          <li class="flex items-center gap-3"><svg class="w-5 h-5 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Collaborate seamlessly</li>
+          <li class="flex items-center gap-3"><svg class="w-5 h-5 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Innovate effortlessly</li>
+        </ul>
+      </div>
+      <div>
+        <img src="https://picsum.photos/seed/team/600/400" alt="About" class="rounded-2xl shadow-2xl">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="py-24 px-6 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Join the DevFlow Community</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">Experience the power of DevFlow and discover how our community can help you grow as a developer.</p>
+      </div>
+      <div class="grid grid-cols-3 gap-8">
+        <!-- Testimonial card WITH IMAGE -->
+        <div class="bg-white/5 rounded-2xl border border-white/10 hover:border-indigo-500/50 transition overflow-hidden group">
+          <img src="https://picsum.photos/seed/flow-rating/600/400" alt="Rating" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <img src="https://picsum.photos/seed/flow-avtar/200/200" alt="Avatar" class="w-full h-48 rounded-full">
+            <h3 class="text-xl font-semibold mb-3">"DevFlow has been a game-changer for my coding speed and efficiency. I highly recommend it to all developers!"</h3>
+            <p class="text-slate-400">- John Doe, DevFlow User</p>
+          </div>
+        </div>
+        <div class="bg-white/5 rounded-2xl border border-white/10 hover:border-indigo-500/50 transition overflow-hidden group">
+          <img src="https://picsum.photos/seed/flow-rating/600/400" alt="Rating" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <img src="https://picsum.photos/seed/flow-avtar/200/200" alt="Avatar" class="w-full h-48 rounded-full">
+            <h3 class="text-xl font-semibold mb-3">"I've tried several coding tools, but DevFlow is by far the best. Its ease of use and seamless workflow integration make it a must-have for any developer!"</h3>
+            <p class="text-slate-400">- Jane Doe, DevFlow User</p>
+          </div>
+        </div>
+        <div class="bg-white/5 rounded-2xl border border-white/10 hover:border-indigo-500/50 transition overflow-hidden group">
+          <img src="https://picsum.photos/seed/flow-rating/600/400" alt="Rating" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <img src="https://picsum.photos/seed/flow-avtar/200/200" alt="Avatar" class="w-full h-48 rounded-full">
+            <h3 class="text-xl font-semibold mb-3">"DevFlow has revolutionized the way I work. Its 99.9% uptime guarantee gives me the peace of mind I need to focus on coding!"</h3>
+            <p class="text-slate-400">- Bob Smith, DevFlow User</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE: Large image with overlapping stats -->
+  <section class="py-24 px-6 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto">
+      <div class="relative">
+        <img src="https://picsum.photos/seed/flow/1400/600" alt="Showcase" class="w-full h-96 object-cover rounded-3xl">
+        <div class="absolute inset-0 bg-gradient-to-r from-violet-500/80 to-fuchsia-500 bg-clip-text text-transparent text-white" style="font-size: 5xl;">Join the Flow</div>
+        <div class="absolute inset-0 flex items-center px-12">
+          <div class="max-w-lg">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">50,000+ Developers</h2>
+            <p class="text-slate-300 mb-6">Join the growing community of developers who have already discovered the power of DevFlow.</p>
+            <div class="grid grid-cols-3 gap-6">
+              <div><div class="text-3xl font-bold text-violet-400">95%</div><div class="text-sm text-slate-400">Uptime</div></div>
+              <div><div class="text-3xl font-bold text-violet-400">24/7</div><div class="text-sm text-slate-400">Support</div></div>
+              <div><div class="text-3xl font-bold text-violet-400">2025</div><div class="text-sm text-slate-400">Year</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PURCHASE PLANS -->
+  <section class="py-24 px-6 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Choose Your Plan</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">Discover the perfect plan for your development needs and join the DevFlow community today.</p>
+      </div>
+      <div class="grid grid-cols-3 gap-8">
+        <!-- Plan card WITH IMAGE -->
+        <div class="bg-slate-900 border border-white/10 rounded-[0.75rem]">
+          <img src="https://picsum.photos/seed/flow-starter/600/400" alt="Starter" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Starter ($0)</h3>
+            <p class="text-slate-400">Perfect for beginners. Limited features, perfect for learning and experimenting.</p>
+          </div>
+        </div>
+        <div class="bg-slate-900 border border-white/10 rounded-[0.75rem]">
+          <img src="https://picsum.photos/seed/flow-pro/600/400" alt="Pro ($29/mo)" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Pro ($29/mo)</h3>
+            <p class="text-slate-400">Perfect for professionals. Includes all features, plus priority support and more.</p>
+          </div>
+        </div>
+        <div class="bg-slate-900 border border-white/10 rounded-[0.75rem]">
+          <img src="https://picsum.photos/seed/flow-enterprise/600/400" alt="Enterprise (Custom)" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Enterprise (Custom)</h3>
+            <p class="text-slate-400">Perfect for large teams and enterprises. Customizable features, plus priority support and more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-24 px-6 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">Discover the answers to your most pressing questions and learn more about DevFlow.</p>
+      </div>
+      <div class="grid grid-cols-3 gap-8">
+        <!-- FAQ item WITH IMAGE -->
+        <div class="bg-white/5 rounded-2xl border border-white/10 hover:border-indigo-500/50 transition overflow-hidden group">
+          <img src="https://picsum.photos/seed/flow-q1/600/400" alt="Question 1" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Q: What is DevFlow?</h3>
+            <p class="text-slate-400">A: DevFlow is a developer productivity tool designed to boost your coding speed, enhance collaboration, and increase your overall efficiency.</p>
+          </div>
+        </div>
+        <div class="bg-white/5 rounded-2xl border border-white/10 hover:border-indigo-500/50 transition overflow-hidden group">
+          <img src="https://picsum.photos/seed/flow-q2/600/400" alt="Question 2" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Q: Is DevFlow user-friendly?</h3>
+            <p class="text-slate-400">A: Yes, DevFlow is designed to be user-friendly and intuitive, making it easy for developers to get started and achieve their goals.</p>
+          </div>
+        </div>
+        <div class="bg-white/5 rounded-2xl border border-white/10 hover:border-indigo-500/50 transition overflow-hidden group">
+          <img src="https://picsum.photos/seed/flow-q3/600/400" alt="Question 3" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Q: Is DevFlow secure?</h3>
+            <p class="text-slate-400">A: Yes, DevFlow is designed with security in mind, featuring enterprise-grade security features to protect your data and ensure your safety.</p>
+          </div>
+        </div>
+        <div class="bg-white/5 rounded-2xl border border-white/10 hover:border-indigo-500/50 transition overflow-hidden group">
+          <img src="https://picsum.photos/seed/flow-q4/600/400" alt="Question 4" class="w-full h-48 object-cover group-hover:scale-105 transition duration-500">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-3">Q: Is DevFlow a good investment?</h3>
+            <p class="text-slate-400">A: Yes, DevFlow is a valuable investment for any developer looking to improve their skills, increase their efficiency, and achieve their goals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="py-24 px-6">
+    <div class="max-w-4xl mx-auto text-center p-12 bg-gradient-to-r from-indigo-600/20 to-violet-600/20 rounded-3xl border border-white/10">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
+      <p class="text-slate-300 mb-8 max-w-xl mx-auto">Take action today and join thousands of satisfied customers.</p>
+      <a href="#" class="inline-block px-8 py-4 bg-violet-500 hover:bg-violet-400 text-white font-semibold rounded-xl transition">Start Free Trial</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-12 px-6 border-t border-white/10">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+      <div class="text-slate-400">&copy; 2025 DevFlow. All rights reserved.</div>
+      <div class="flex gap-6">
+        <a href="#" class="text-slate-400 hover:text-white transition">Privacy</a>
+        <a href="#" class="text-slate-400 hover:text-white transition">Terms</a>
+        <a href="#" class="text-slate-400 hover:text-white transition">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+
+<script>
+(function() {
+  'use strict';
+
+  // ===== SMOOTH SCROLLING FOR ALL ANCHOR LINKS =====
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href === '#' || href === '#!') {
+        e.preventDefault();
+        return;
+      }
+      const target = document.querySelector(href);
+      if (target) {
+        e.preventDefault();
+        const offset = 80;
+        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // ===== MOBILE MENU TOGGLE =====
+  const mobileToggle = document.querySelector('[data-mobile-toggle], .mobile-menu-toggle, button[aria-label*="menu" i]');
+  const mobileMenu = document.querySelector('[data-mobile-menu], .mobile-menu, nav ul.hidden');
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (mobileMenu) {
+        mobileMenu.classList.toggle('hidden');
+        mobileMenu.classList.toggle('flex');
+      }
+      // Toggle hamburger to X animation
+      const spans = mobileToggle.querySelectorAll('span');
+      spans.forEach(span => span.classList.toggle('rotate-45'));
+    });
+  }
+
+  // ===== NAVBAR BACKGROUND ON SCROLL =====
+  const navbar = document.querySelector('nav, header');
+  if (navbar) {
+    const updateNav = () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('shadow-lg');
+        navbar.style.background = 'rgba(15, 23, 42, 0.95)';
+      } else {
+        navbar.classList.remove('shadow-lg');
+        navbar.style.background = '';
+      }
+    };
+    window.addEventListener('scroll', updateNav, { passive: true });
+  }
+
+  // ===== FORM SUBMISSION HANDLER =====
+  document.querySelectorAll('form').forEach(form => {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('button[type="submit"], input[type="submit"]');
+      const originalText = btn ? btn.innerHTML : '';
+
+      if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = '<svg class="animate-spin h-5 w-5 mx-auto" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"/></svg>';
+      }
+
+      // Simulate form submission (in production, this would POST to a real endpoint)
+      setTimeout(() => {
+        if (btn) {
+          btn.innerHTML = '✓ Success!';
+          btn.classList.remove('bg-indigo-600');
+          btn.classList.add('bg-green-600');
+        }
+        this.reset();
+
+        setTimeout(() => {
+          if (btn) {
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+            btn.classList.remove('bg-green-600');
+            btn.classList.add('bg-indigo-600');
+          }
+        }, 2000);
+      }, 1500);
+    });
+  });
+
+  // ===== CTA BUTTON CLICK HANDLERS =====
+  document.querySelectorAll('a[href="#"], button:not([type]), .cta-button').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      if (this.getAttribute('href') === '#') {
+        e.preventDefault();
+        // Scroll to contact or first form section
+        const contactSection = document.querySelector('#contact, #form, form, [id*="contact"]');
+        if (contactSection) {
+          const offset = 80;
+          const top = contactSection.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        } else {
+          // Show a simple alert if no contact section
+          alert('Thank you for your interest! This feature will be available soon.');
+        }
+      }
+    });
+  });
+
+  // ===== FAQ ACCORDION =====
+  document.querySelectorAll('[data-accordion], .faq-item, .accordion-item').forEach(item => {
+    const trigger = item.querySelector('button, [role="button"], .faq-question');
+    const content = item.querySelector('[data-content], .faq-answer, .accordion-content, p');
+    if (trigger && content) {
+      content.style.maxHeight = '0';
+      content.style.overflow = 'hidden';
+      content.style.transition = 'max-height 0.3s ease';
+
+      trigger.addEventListener('click', () => {
+        const isOpen = content.style.maxHeight !== '0px';
+        content.style.maxHeight = isOpen ? '0px' : content.scrollHeight + 'px';
+        const icon = trigger.querySelector('svg, [class*="chevron"]');
+        if (icon) icon.style.transform = isOpen ? '' : 'rotate(180deg)';
+      });
+    }
+  });
+
+  // ===== SCROLL REVEAL ANIMATIONS =====
+  const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('section, .card, article, [class*="animate"]').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(el);
+  });
+
+  // ===== COUNTER ANIMATION FOR STATS =====
+  document.querySelectorAll('[data-count], .stat-number').forEach(counter => {
+    const target = parseInt(counter.textContent.replace(/[^0-9]/g, ''), 10);
+    if (isNaN(target)) return;
+
+    counter.textContent = '0';
+    const countObserver = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        let current = 0;
+        const step = target / 50;
+        const timer = setInterval(() => {
+          current += step;
+          if (current >= target) {
+            counter.textContent = target.toLocaleString() + (counter.dataset.suffix || '+');
+            clearInterval(timer);
+          } else {
+            counter.textContent = Math.floor(current).toLocaleString();
+          }
+        }, 30);
+        countObserver.disconnect();
+      }
+    });
+    countObserver.observe(counter);
+  });
+
+  console.log('✅ WebStew interactivity loaded');
+})();
+</script>
+
+<img src="https://replicate.delivery/czjl/oDUEfPtWRSTifEkzR1jKRRxIyJeiBj2T6Uj8OciTBaOZyQzrA/out-0.webp" alt="AI Generated Image" style="width: 100%; max-width: 800px; margin: 2rem auto; display: block; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);" />
+</body>
+</html>
